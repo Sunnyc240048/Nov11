@@ -7,7 +7,7 @@ import google.generativeai as genai
 import os
 
 #api ='AIzaSyAgmAsCfOrqSUF7bgur9lFefUl8f_no4Fs'
-api = os.getenv("makersuite")
+#api = os.getenv("makersuite")
 genai.configure(api_key = api)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
